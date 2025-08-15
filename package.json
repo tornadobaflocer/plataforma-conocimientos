@@ -4,16 +4,16 @@
   "description": "Una plataforma sencilla de intercambio de conocimientos, donde los usuarios pueden crear y compartir breves tutoriales en su área de especialización.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js", // Inicia el servidor en producción
+    "dev": "nodemon server.js" // Inicia el servidor en modo desarrollo
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0"
+    "express": "^4.17.1", // Framework web para Node.js
+    "mongoose": "^5.10.9", // ODM para MongoDB
+    "cors": "^2.8.5", // Middleware para habilitar CORS
+    "dotenv": "^8.2.0" // Carga variables de entorno desde un archivo .env
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4" // Utilidad para reiniciar automáticamente el servidor durante el desarrollo
   }
 }
